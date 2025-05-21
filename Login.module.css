@@ -1,0 +1,129 @@
+/* Ensure the page container fills the screen and centers the form */
+.pageContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+  width: 100vw;  /* Full viewport width */
+  background-color: #f8f9fa; /* Light background */
+  margin: 0;
+  padding: 0;
+}
+
+/* Main container for the login box */
+.container {
+  background-color: #ffffff;
+  padding: 30px;
+  width: 400px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Heading style */
+.heading {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+/* General text */
+.text {
+  font-size: 14px;
+  color: #555;
+}
+
+/* Hyperlink styling */
+.link {
+  color: #111112;
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+/* Social login buttons */
+.btn {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+  border: 1px solid #007bff;
+  color: #007bff;
+  background-color: #ffffff;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.btn img {
+  width: 20px;
+  margin-right: 10px;
+}
+
+.btn:hover {
+  background-color: #f0f0f0;
+}
+
+/* OR separator */
+.separator {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 15px 0;
+}
+
+.separator::before,
+.separator::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #ccc;
+  margin: 0 10px;
+}
+
+.separator span {
+  color: #777;
+  font-size: 14px;
+}
+
+/* Input field */
+.input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-top: 10px;
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.2s ease-in-out;
+}
+
+.input:focus {
+  border-color: #007bff;
+}
+
+/* Sign-in button */
+.signinBtn {
+  width: 100%;
+  background-color: #007bff;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 15px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.signinBtn:hover {
+  background-color: #0056b3;
+}

@@ -1,0 +1,72 @@
+.service-detail-container {
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+    min-height: 100vh;
+  }
+  
+  .service-detail-card {
+    background-color: #ffffff;
+    max-width: 900px;
+    width: 100%;
+    border-radius: 16px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    padding: 32px;
+    text-align: center;
+  }
+  
+  .service-detail-image {
+    width: 100%;
+    max-width: 480px;
+    height: auto;
+    margin-bottom: 24px;
+    border-radius: 12px;
+    object-fit: cover;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+  }
+  
+  .service-detail-title {
+    font-size: 30px;
+    font-weight: 700;
+    color: #1f2937;
+    margin-bottom: 10px;
+  }
+  
+  .service-detail-provider,
+  .service-detail-address {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 6px;
+  }
+  
+  .service-detail-description {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #333;
+    text-align: left;
+    line-height: 1.7;
+  }
+  
+  .service-detail-description h2,
+  .service-detail-description h4 {
+    margin: 12px 0;
+    font-weight: normal;
+  }
+  
+  .book-button {
+    margin-top: 30px;
+    background-color: #3b82f6;
+    color: white;
+    padding: 12px 28px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .book-button:hover {
+    background-color: #2563eb;
+  }
+  

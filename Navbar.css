@@ -1,0 +1,108 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: white;
+  padding: 15px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.nav-button:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+}
+
+/* Services Dropdown */
+.services-dropdown {
+  position: relative;
+}
+
+.services-menu {
+  position: absolute;
+  background-color: white;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  min-width: 150px;
+  border-radius: 5px;
+  padding: 5px 0;
+}
+
+.services-menu a {
+  color: black;
+  padding: 10px 15px;
+  text-decoration: none;
+  display: block;
+}
+
+.services-menu a:hover {
+  background-color: #ddd;
+}
+
+/* User Profile */
+.user-profile {
+  position: relative;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.profile-container {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: #555;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.profile-pic {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.dropdown-menu {
+  position: absolute;
+  right: 0;
+  background-color: white;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  min-width: 150px;
+  border-radius: 5px;
+  padding: 5px 0;
+  z-index: 1000;
+}
+
+.dropdown-menu a, .dropdown-menu button {
+  color: black;
+  padding: 10px 15px;
+  text-decoration: none;
+  display: block;
+  background: none;
+  border: none;
+  text-align: left;
+  width: 100%;
+  cursor: pointer;
+}
+
+.dropdown-menu a:hover, .dropdown-menu button:hover {
+  background-color: #ddd;
+}
